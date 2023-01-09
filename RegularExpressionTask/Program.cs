@@ -10,8 +10,8 @@
 
 #region DateTime
 //string dateTime = Console.ReadLine();
-//dd.MM.yyyy
-//Regex regex = new Regex(@"^(3[0-1]|[0-1][1-9]|0?[0-9])\.?(0?[1-9]|1[0-2])\.([0-9]{4})");
+////dd.MM.yyyy
+//Regex regex = new Regex(@"(3[0-1]|[0-1][1-9]|0?[0-9])\.?(0?[1-9]|1[0-2])\.([1-2][0-9][0-9][0-9]$)");
 //Match match = regex.Match(dateTime);
 //Console.WriteLine(match.Success);
 #endregion
